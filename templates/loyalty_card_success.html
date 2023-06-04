@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loyalty Card Creation Success</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .success-message {
+            background-color: #dff0d8;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+        .order-number {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="success-message">
+        <h1>Success!</h1>
+        <p>Your loyalty card has been created successfully.</p>
+    </div>
+    <p>Order Number: <span class="order-number">{{ order_number }}</span></p>
+    <p>Card Number: {{ card_number }}</p>
+    <p>Loyalty Identifier: {{ loyalty_identifier }}</p>
+    <!-- Add more information or styling as needed -->
+
+
+
+</body>
+</html>
